@@ -44,7 +44,9 @@
     #Example test -VM MyVM -MonthDayYear 05/24/2023 -Hour 09 -Minute 30 -SnapName MyTestSnap -SnapDescription 'Snap Test' -EmailAddr 'user1@gmail.com'
 
     This will create a snapshot named "MyTestSnap" with a description of "Snap Test" for a VM named, "MyVM" on 05/24/2023 at 09:30am.  It will send an email notification to user1.
-
+    
+    .NOTES
+    Written by Jaime Navarro
 #>
     [Cmdletbinding()]
     param(
